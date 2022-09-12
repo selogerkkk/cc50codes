@@ -24,7 +24,6 @@ int main()
         sum1 = credit_array1[j];
         credit_array2[j] = fabsf((credit_array2[j] % power10(i) / power10(i - 1)));
         card9 = fabsf((card % power10(1)));
-        printf("I = %d, I+1 = %d\n", i, i - 1);
         sum2 = credit_array2[j];
     }
 
